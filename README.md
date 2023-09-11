@@ -1,6 +1,6 @@
 # ChatBot with AI using OpenAI Function Calling Structure
 
-This is a Python ChatBot application that leverages the OpenAI GPT-3.5 Turbo model for conversation. It allows users to interact with the ChatBot, which can perform various functions based on user queries also recent events on internet.
+This is a Python ChatBot application that leverages the OpenAI GPT-3.5 Turbo model for conversation. It allows users to interact with the ChatBot, which can perform various functions based on user queries and recent internet events.
 
 ## Table of Contents
 1. [Getting Started](#getting-started)
@@ -64,12 +64,12 @@ https://serpapi.com/dashboard
 
 You should store these keys securely and add them to your environment variables or a `.env` file.
 
-# .env file
+.env file
 OPENAI_API_KEY=your_openai_api_key
 OPENWEATHER_API_KEY=your_openweather_api_key
 apikey_search=your_serpapi_api_key
 
-MIT License
+#MIT License
 
 Copyright (c) 2023 PeriniDev
 
