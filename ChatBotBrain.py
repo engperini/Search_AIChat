@@ -72,8 +72,6 @@ def run_conversation(prompt):
         fuction_to_call = available_functions[function_name]
         function_args = json.loads(response_message["function_call"]["arguments"])
         
-        print(function_name)
-        print(function_args)
 
         #I got this solution because first I put all args togheter and-> TypeError: websearch() got an unexpected keyword argument 'location'
         if function_name == "get_weather_forecast":
@@ -105,7 +103,7 @@ def run_conversation(prompt):
             messages=messages,
         )  # get a new response from GPT where it can see the function response
 
-        print(second_response)
+        #print(second_response)
         return second_response
     
     else:
