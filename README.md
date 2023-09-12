@@ -8,7 +8,6 @@ This is a Python ChatBot application that leverages the OpenAI GPT-3.5 Turbo mod
 3. [Modules](#modules)
     - [ChatBotBrain.py](#chatbotbrainpy)
     - [functions_actions.py](#functionsactionspy)
-    - [functions_openai.py](#functionsopenaipy)
 4. [API Keys](#api-keys)
 5. [License](#license)
 
@@ -43,11 +42,7 @@ This module defines actions that the ChatBot can perform based on user queries.
 
 - `get_weather_forecast(location, cnt=1)`: Get weather forecasts or current weather for a given location using the OpenWeather API.
 
-- `websearch(query)`: Perform web searches and answer questions about recent events using DuckDuckGo and SERPAPI.
-
-### functions_openai.py
-
-This module handles interactions with the OpenAI GPT-3.5 Turbo model.
+- `websearch(query)`: Perform web searches and answer questions about recent events using DuckDuckGo and SERPAPI
 
 ### API Keys
 
@@ -68,6 +63,10 @@ You should store these keys securely and add them to your environment variables 
 OPENAI_API_KEY=your_openai_api_key
 OPENWEATHER_API_KEY=your_openweather_api_key
 apikey_search=your_serpapi_api_key
+
+#Important Note:
+
+I only test it on Raspiberry Pi 4B 8G OS 64bit
 
 #MIT License
 
